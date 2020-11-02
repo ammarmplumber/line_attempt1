@@ -2,5 +2,3 @@
 # You can delete this file.
 otree[mturk]>=2.6.1
 numpy
-scipy
-pandas
