@@ -13,7 +13,7 @@
         <tr><td>Your choice:</td><td>{{ player.decision }}</td></tr>
 
         <tr><td>Other participants' choices:</td><td>
-            {% if player.id_in_group == 1 %}
+        {% if player.id_in_group == 1 %}
             Player R - {{ player.get_others_in_group.0.decision }}</td></tr>
         {% elif player.id_in_group == 2 %}
             <tr><td></td><td>Player Q - {{ player.get_others_in_group.0.decision }}</td></tr>
