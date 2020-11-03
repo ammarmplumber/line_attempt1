@@ -5,6 +5,11 @@ psycopg2>=2.8.4
 django
 django-heroku
 gunicorn
+pytz
+setuptools
+whitenoise
+dj-database-url
+pip
 numpy
 pandas
 scipy
