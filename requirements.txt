@@ -2,12 +2,12 @@
 otree
 otree[mturk]>=2.6.1
 psycopg2>=2.8.4
-django
+django==2.2.12
 django-heroku
 gunicorn
-pytz
+pytz==2019.2
 setuptools
-whitenoise
+whitenoise==4.1.3
 dj-database-url
 pip
 numpy
