@@ -2,6 +2,9 @@
 otree
 otree[mturk]>=2.6.1
 psycopg2>=2.8.4
+django
+django-heroku
+gunicorn
 numpy
 pandas
 scipy
