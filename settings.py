@@ -1,3 +1,4 @@
+import os
 from os import environ
 import django_heroku
 
